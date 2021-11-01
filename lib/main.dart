@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 import 'quote.dart';
@@ -16,20 +18,27 @@ class QuoteList extends StatefulWidget {
 class _QuoteListState extends State<QuoteList> {
   List<Quote> quotes = [
     Quote(
-        author: 'Oscar Wild 1',
-        sentence: 'Lorem ipsum dolor amet,  adipiscing elit 1.'),
+        author: 'Paul Arden',
+        sentence:
+            'The world is what you think of it, so think of it differently and your life will change.'),
     Quote(
-        author: 'Oscar Wild 2',
-        sentence: 'Lorem ipsum consectetur adipiscing 2.'),
+        author: 'Stephen King',
+        sentence:
+            'Amateurs sit and wait for inspiration, the rest of us just get up and go to work.'),
     Quote(
-        author: 'Oscar Wild 3',
-        sentence: 'Ipsum  amet, adipiscing elit 3.'),
+        author: 'Unknown writer',
+        sentence:
+            'Never sacrifice three things; your family, your heart and your dignity.'),
     Quote(
-        author: 'Oscar Wild 4',
-        sentence: 'Lorem ipsum amet, consectetur 4.'),
+        author: 'Andre Gide',
+        sentence:
+            'It is better to be hated for what you are than to be loved for what you are not.'),
     Quote(
-        author: 'Oscar Wild 5',
-        sentence: 'Lorem ipsum dolor amet, consectetur  elit 5.')
+        author: 'Stephen Chbosky',
+        sentence: 'We accept the love we think we deserve.'),
+    Quote(
+        author: 'Mahatma Gandhi',
+        sentence: 'Where there is love there is life.')
   ];
 
   Widget quoteTemplate(quote) {
@@ -44,7 +53,10 @@ class _QuoteListState extends State<QuoteList> {
                 style: TextStyle(fontSize: 18.0, color: Colors.grey[600])),
             const SizedBox(height: 6.0),
             Text(quote.author,
-                style: TextStyle(fontSize: 14.0, color: Colors.grey[800])),
+                style: const TextStyle(
+                    fontSize: 14.0,
+                    color: Colors.teal,
+                    fontWeight: FontWeight.bold)),
           ],
         ),
       ),
@@ -58,7 +70,7 @@ class _QuoteListState extends State<QuoteList> {
       appBar: AppBar(
         title: const Text('Awesome Quotes'),
         centerTitle: true,
-        backgroundColor: Colors.pink,
+        backgroundColor: Colors.black54,
       ),
       body: Column(
         children: quotes
