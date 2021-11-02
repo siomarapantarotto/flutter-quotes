@@ -4,7 +4,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-
+* [App screenshots](#app-screenshots)
 
 
 ## General info
@@ -12,7 +12,6 @@ This repo works like a lab for flutter/dart development. The app implements a li
 
 
 ## Technologies
-
 <p>
   <img src="https://img.shields.io/badge/Dart-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/Android%20Studio-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />&nbsp;&nbsp;
