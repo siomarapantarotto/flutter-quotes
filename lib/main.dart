@@ -1,6 +1,7 @@
 //import 'dart:ui';
 //import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 import 'quote.dart';
 import 'quote_card.dart';
 
@@ -18,21 +19,28 @@ class QuoteList extends StatefulWidget {
 List<Quote> quotes = [
   Quote(
       author: 'Paul Arden',
-      sentence:
-      'The world is what you think of it, so think of it differently and your life will change.'),
+      sentence: 'The world is what you think of it, so think of it differently and your life will change.'),
   Quote(
       author: 'Stephen King',
-      sentence:
-      'Amateurs sit and wait for inspiration, the rest of us just get up and go to work.'),
+      sentence: 'Amateurs sit and wait for inspiration, the rest of us just get up and go to work.'),
   Quote(
       author: 'Andre Gide',
-      sentence:
-      'It is better to be hated for what you are than to be loved for what you are not.'),
+      sentence: 'It is better to be hated for what you are than to be loved for what you are not.'),
   Quote(
-      author: 'Andre Gide',
-      sentence:
-      'It is better to be hated for what you are than to be loved for what you are not.'),
-
+      author: 'Denise Brennan-Nelson',
+      sentence: 'Someday is not a day of the week.'),
+  Quote(
+      author: 'Peter Schutz',
+      sentence: 'Hire character. Train skill.'),
+  Quote(
+      author: 'Steve Jobs',
+      sentence: 'Your time is limited, so don\'t waste it living someone else\'s life.'),
+  Quote(
+      author: 'Robert Louis Stevenson',
+      sentence: 'Everyone lives by selling something.'),
+  Quote(
+      author: 'Napoleon Hill',
+      sentence: 'If you cannot do great things, do small things in a great way.'),
 ];
 
 class _QuoteListState extends State<QuoteList> {
@@ -45,21 +53,19 @@ class _QuoteListState extends State<QuoteList> {
         centerTitle: true,
         backgroundColor: Colors.black54,
       ),
-      body: Column(
-        children: quotes.map((quote) => QuoteCard(
-            quote: quote,
-            deleteQuote: () {
-              setState(() {
-                quotes.remove(quote);
-              });
-            }
-        )).toList(),
+      body: SingleChildScrollView(
+        child: Column(
+          children: quotes
+              .map((quote) => QuoteCard(
+                  quote: quote,
+                  deleteQuote: () {
+                    setState(() {
+                      quotes.remove(quote);
+                    });
+                  }))
+              .toList(),
+        ),
       ),
     );
   }
 }
-
-
-
-
-
