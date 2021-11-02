@@ -3,6 +3,6 @@ class Quote {
   String sentence;
   String author;
 
-  // Passing named parameters.
+  // Constructor passing named parameters.
   Quote({required this.sentence, required this.author});
 }
