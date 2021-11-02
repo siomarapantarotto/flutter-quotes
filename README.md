@@ -22,7 +22,6 @@ This repo works like a lab for flutter/dart development. The app implements a li
 
 ## App screenshots
 <kbd><img src="https://user-images.githubusercontent.com/5893219/139925317-0825af01-f9e0-4f70-89ec-cd95177dd812.png" width="150" height="300"></kbd>
-<kbd><img src="https://user-images.githubusercontent.com/5893219/139925318-33ee1835-5401-4327-ad10-3e504cf78250.png" width="150" height="300"></kbd>
 <kbd><img src="https://user-images.githubusercontent.com/5893219/139925310-04f6cdc0-b891-4db4-8bef-9bd0aae29e44.png" width="150" height="300"></kbd>
 <kbd><img src="https://user-images.githubusercontent.com/5893219/139925314-5af08112-392d-40ad-85f9-76514fcc48ca.png" width="150" height="300"></kbd>
 <kbd><img src="https://user-images.githubusercontent.com/5893219/139925315-dacc1a98-8998-45d6-8f0c-fe77b434d9b6.png" width="150" height="300"></kbd>
