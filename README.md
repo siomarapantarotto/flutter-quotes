@@ -8,7 +8,22 @@
 
 
 ## General info
-This repo works like a lab for flutter/dart development. The app implements a list of quotes. The goal is to learn layout practices, populating a list of data and working with card.
+This Flutter application implements a list of awesome quotes, covering the following contents:
+
+- Scaffold & AppBar Widgets
+- Colours & Fonts
+- Stateless Widgets & Hot Reload
+- Images & Assets
+- Buttons & Icons
+- Containers & Padding
+- Rows & Columns
+- Flutter Outline & Shortcuts
+- Expanded Widgets
+- Lists of Data
+- Custom Classes
+- Cards
+- Extracting Widgets
+- Functions as Parameters
 
 
 ## Technologies
