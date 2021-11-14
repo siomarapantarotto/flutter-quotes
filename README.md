@@ -1,10 +1,11 @@
-# Quotes
+# Awesome Quotes App
 
 
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [App screenshots](#app-screenshots)
+* [References](#references)
 
 
 ## General info
@@ -39,6 +40,12 @@ This Flutter application implements a list of awesome quotes, covering the follo
 <kbd><img src="https://user-images.githubusercontent.com/5893219/139925310-04f6cdc0-b891-4db4-8bef-9bd0aae29e44.png" width="150" height="300"></kbd>
 <kbd><img src="https://user-images.githubusercontent.com/5893219/139925314-5af08112-392d-40ad-85f9-76514fcc48ca.png" width="150" height="300"></kbd>
 <kbd><img src="https://user-images.githubusercontent.com/5893219/139925315-dacc1a98-8998-45d6-8f0c-fe77b434d9b6.png" width="150" height="300"></kbd>
+
+
+## References
+1) The Net Ninja - https://github.com/iamshaunjp
+2) Material Design - https://material.io/
+3) Google Fonts: https://fonts.google.com/
 
 
 <!-- FOOTER (Author / Visit My Online Resume / Download My PDF Resume) -->
